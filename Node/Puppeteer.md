@@ -44,14 +44,14 @@ const cheerio = require('cheerio');
 Puppeteer와 Cheerio는 모두 웹 스크래핑과 자동화 테스트를 위한 도구이지만, 다음과 같은 차이점이 있다.
 <br>
 
-- Puppeteer는 브라우저 자동화 도구로, Chrome 또는 Chromium 브라우저를 직접 제어하여 웹 페이지를 스크래핑하거나 자동화 테스트를 수행합니다.
-- Cheerio는 Node.js에서 사용할 수 있는 HTML 파서 및 조작 라이브러리로, 브라우저를 사용하지 않고도 HTML 문서를 파싱하고 조작할 수 있습니다.
-- Puppeteer는 브라우저에서 실행되는 JavaScript 코드를 실행할 수 있으므로, 브라우저에서 수행할 수 있는 작업들을 자동화할 수 있습니다.
-- Cheerio는 Node.js에서 동작하며, HTML 문서를 파싱하고 jQuery와 유사한 API를 제공하여 DOM 요소를 쉽게 선택하고 조작할 수 있습니다.
-- Puppeteer는 Headless 모드에서 작동하며, 브라우저 UI를 표시하지 않고 백그라운드에서 실행됩니다.
-- Cheerio는 브라우저를 사용하지 않으므로, 백그라운드에서 실행되는 Node.js 애플리케이션에서 HTML 문서를 처리할 수 있습니다.
+- Puppeteer는 브라우저 자동화 도구로, Chrome 또는 Chromium 브라우저를 직접 제어하여 웹 페이지를 스크래핑하거나 자동화 테스트를 수행
+- Cheerio는 Node.js에서 사용할 수 있는 HTML 파서 및 조작 라이브러리로, 브라우저를 사용하지 않고도 HTML 문서를 파싱하고 조작할 수 있음
+- Puppeteer는 브라우저에서 실행되는 JavaScript 코드를 실행할 수 있으므로, 브라우저에서 수행할 수 있는 작업들을 자동화할 수 있음
+- Cheerio는 Node.js에서 동작하며, HTML 문서를 파싱하고 jQuery와 유사한 API를 제공하여 DOM 요소를 쉽게 선택하고 조작할 수 있음
+- Puppeteer는 Headless 모드에서 작동하며, 브라우저 UI를 표시하지 않고 백그라운드에서 실행
+- Cheerio는 브라우저를 사용하지 않으므로, 백그라운드에서 실행되는 Node.js 애플리케이션에서 HTML 문서를 처리할 수 있음
 
 <br>
-따라서 Puppeteer는 브라우저에서 수행하는 작업들을 자동화하기 위한 도구이고, Cheerio는 HTML 문서를 파싱하고 처리하는 데 사용되는 도구입니다. 사용 용도에 따라 두 도구를 적절히 선택하여 사용할 수 있습니다.
+따라서 Puppeteer는 브라우저에서 수행하는 작업들을 자동화하기 위한 도구이고, Cheerio는 HTML 문서를 파싱하고 처리하는 데 사용되는 도구입니다. 사용 용도에 따라 두 도구를 적절히 선택하여 사용할 수 있다.
 
 
