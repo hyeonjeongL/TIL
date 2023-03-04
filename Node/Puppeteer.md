@@ -31,6 +31,7 @@ const cheerio = require('cheerio');
   logger.info(title);
   await browser.close();
 })();
+```
 
 위의 코드는 "https://example.com"사이트의 h1 타이틀을 스크래핑 해오는 코드 
 꼭 browser를 마지막에 닫아줘야 한다.
@@ -50,3 +51,5 @@ Puppeteer와 Cheerio는 모두 웹 스크래핑과 자동화 테스트를 위한
 
 <br>
 따라서 Puppeteer는 브라우저에서 수행하는 작업들을 자동화하기 위한 도구이고, Cheerio는 HTML 문서를 파싱하고 처리하는 데 사용되는 도구입니다. 사용 용도에 따라 두 도구를 적절히 선택하여 사용할 수 있습니다.
+
+
