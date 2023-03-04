@@ -1,4 +1,4 @@
-<h3>Terminal 단축키</h3>
+<h3>Terminal 단축키(shortcut)</h3>
 <br>
 :check: cd <directory 이름>
 해당 directory 위치로 이동 
