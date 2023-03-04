@@ -32,6 +32,7 @@ const cheerio = require('cheerio');
   logger.info(title);
   await browser.close();
 })();
+```
 
 
 위의 코드는 "https://example.com"사이트의 h1 타이틀을 스크래핑 해오는 코드 
