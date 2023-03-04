@@ -17,7 +17,8 @@
 - Puppeteer와 Cheerio는 각각의 특성에 따라 사용 용도가 다름.
 <br>
 <br>
-```
+
+```javascript
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 
@@ -32,7 +33,7 @@ const cheerio = require('cheerio');
   await browser.close();
 })();
 
-<br>
+
 위의 코드는 "https://example.com"사이트의 h1 타이틀을 스크래핑 해오는 코드 
 꼭 browser를 마지막에 닫아줘야 한다.
 <br>
